@@ -1,0 +1,25 @@
+#root .bg-light {
+    background-color: #809db6 !important;
+    padding: 16px 45px;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.profile_img {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    padding: 10px;
+    display: block;
+    line-height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    margin-left: 1455px;
+}
