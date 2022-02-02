@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "./header.style.css";
 import { Link, withRouter } from "react-router-dom";
-import { toast } from "react-toastify";
 import { LOCALSTORAGE_KEYS } from "../../constants";
 
 class Header extends Component {
