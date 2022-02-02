@@ -20,41 +20,6 @@ class Header extends Component {
   };
 
   render() {
-    // let {email } = this.props.user;
-    // // // let AnonymousUser = () => {
-    // // //   return (
-    // // //     <Fragment>
-    // // //       <li className="nav-item">
-    // // //         <Link className="nav-link" to="/login">
-    // // //           Login
-    // // //         </Link>
-    // // //       </li>
-    // // //       <li className="nav-item">
-    // // //         <Link className="nav-link" to="/register">
-    // // //           Register
-    // // //         </Link>
-    // // //       </li>
-    // // //     </Fragment>
-    // // //   );
-    // // // };
-
-    // // // let AuthUser = () => {
-    // // //   return (
-    // // //     <Fragment>
-    // // //       <li className="nav-item">
-    // // //         <Link className="nav-link" to="/dashboard">
-    // // //           Dashboard
-    // // //         </Link>
-    // // //       </li>
-    // // //       <li className="nav-item">
-    // // //         <span className="nav-link" onClick={this.onLogOut}>
-    // // //           Logout
-    // // //         </span>
-    // // //       </li>
-    // //     </Fragment>
-    //   );
-    // };
-
     return (
       <Fragment>
         <nav className="navbar navbar-expand-lg navbar-dark bg-light">
@@ -72,13 +37,11 @@ class Header extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/home">
                   Home
                 </Link>
               </li>
-              {/* {this.props.user.emailVerified ? <AuthUser /> : <AnonymousUser />} */}
-              {/* <AuthUser />
-              <AnonymousUser /> */}
+
               <li className="nav-item">
                 <Link className="nav-link" to="/login">
                   Login

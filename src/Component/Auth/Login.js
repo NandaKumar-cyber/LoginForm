@@ -1,4 +1,3 @@
-import { json } from "body-parser";
 import React, { Component, Fragment } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { v4 as uuidv4 } from 'uuid';

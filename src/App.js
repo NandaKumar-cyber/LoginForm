@@ -7,8 +7,6 @@ import {
   withRouter,
   Redirect,
 } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import Header from "./Component/Header/header";
 import Register from "./Component/Auth/Register";
 import Home from "./Component/Homepage/home";
@@ -77,6 +75,7 @@ class App extends Component {
                 }
               />
               <Route path="/register" exact component={Register} />
+              <Route path="/home" exact component={Home} />
             </Switch>
           </main>
         </Router>
