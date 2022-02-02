@@ -12,6 +12,7 @@ import Register from "./Component/Auth/Register";
 import Home from "./Component/Homepage/home";
 import Login from "./Component/Auth/Login";
 import Dashboard from "./Component/Dashboard/Dashboard";
+import Logout from "./Component/Auth/Logout"
 import { LOCALSTORAGE_KEYS } from './constants';
 
 class App extends Component {
@@ -76,6 +77,7 @@ class App extends Component {
               />
               <Route path="/register" exact component={Register} />
               <Route path="/home" exact component={Home} />
+              <Route path="/logout" exact component={Logout} />
             </Switch>
           </main>
         </Router>

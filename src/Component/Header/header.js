@@ -15,7 +15,7 @@ class Header extends Component {
   onLogOut = () => {
     localStorage.removeItem(LOCALSTORAGE_KEYS.SESSION_ID);
     window.dispatchEvent(new Event("storage"));
-    this.props.history.push("/login");
+    this.props.history.push("/logout");
   };
 
   render() {
